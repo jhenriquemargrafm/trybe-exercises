@@ -1,0 +1,1 @@
+Repositório para organização dos exercícios realizados durante o curso.
