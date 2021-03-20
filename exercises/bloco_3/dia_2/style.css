@@ -1,0 +1,25 @@
+h1 {
+    font-family: sans-serif, serif;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+body {
+    font-size: 16px;
+}
+ul{
+    font-style:oblique;
+    line-height: 30px;
+    text-align:center;
+    text-decoration: lavender;
+}
+#a{
+    background-color: yellow;
+}
+#b{
+    background-color: red;  
+}
+#c{
+    background-color: rgb(68, 38, 38);  
+}
