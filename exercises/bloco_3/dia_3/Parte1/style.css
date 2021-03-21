@@ -4,6 +4,8 @@
     line-height: 50px;
     text-align: center;
     vertical-align: top;
+    margin: 0px;
+    border: 0px;
   }
 
   .width-and-height {
@@ -13,7 +15,7 @@
 
   .padding {
     padding: 20px;
-    /* insira aqui um padding de 20px na classe abaixo para aplicá-lo aos itens B, C e D */
+    /* ainsira aqui um padding de 20px na classe abaixo para aplicá-lo aos itens B, C e D */
   }
 
   .margin {
