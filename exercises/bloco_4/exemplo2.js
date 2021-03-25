@@ -11,4 +11,4 @@ let altura = 8;
 let area = base*altura;
 console.log("Base: " + area + ' m2');
 let perimetro = 2*(base+altura);
-console.log("Perimetro: " + perimetro + ' m2');
+console.log("Perimetro: " + Perimetro + ' m2');
