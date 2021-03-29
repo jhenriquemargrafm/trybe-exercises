@@ -1,1 +1,1 @@
-Repositório para organização dos exercícios realizados durante o curso. Atualizado 28/03/21
+Repositório para organização dos exercícios realizados durante o curso. Atualizado 29/03/21
