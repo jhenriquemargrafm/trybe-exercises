@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+    <link rel="stylesheet" type:"text/css" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <div class="main-content">
+      <div class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </div>
+    </div>
+    <script>
+        // Exercicio 1:
+        function text() {
+            document.querySelectorAll('p')[1].innerText = "Ter uma carreira com boas oportunidades fora do país";
+        }
+        text();
+
+        //Exercício 2
+        function greenBack() {
+            document.getElementsByClassName('main-content')[0].style.background = "rgb(76,164,109)";
+        }
+        greenBack();
+
+        //Exercício 3
+        function whiteBack() {
+            document.querySelectorAll('.center-content')[0].style.background = "rgb(255, 255, 255)";
+        }
+        whiteBack();
+
+        // Exercicio 4
+        function titleCorrection() {
+            document.getElementsByTagName('h1')[0].innerText = "Exercício 5.1 - JavaScript";
+        }
+        titleCorrection();
+
+        //Exercício 5
+        function capitalLetters() {
+            let paragraph = document.getElementsByTagName('p')[0];
+            paragraph.innerText = paragraph.innerText.toUpperCase();
+        }
+        capitalLetters();
+
+        function allP() {
+            let para = document.getElementsByTagName('p');
+            for (let index = 0; index < para.length; index += 1) {
+                console.log(para[index].innerText);
+            }
+        }
+        allP();
+    </script>
+  </body>
+</html>
