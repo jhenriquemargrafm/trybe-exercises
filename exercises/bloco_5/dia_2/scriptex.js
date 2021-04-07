@@ -52,3 +52,29 @@ for (index = 0; index < 3; index += 1) {
     mainDiv.appendChild(h3);
 }
 
+// Parte 2 - alterações e remoções
+// Exercicio - 1
+let titleH1 = document.querySelector('h1');
+titleH1.className = 'title';
+
+// Exercicio - 2
+for (index = 0; index < 3; index += 1) {
+    let titleH3 = document.getElementsByTagName('h3')[index];
+    titleH3.className = 'Description';
+}
+
+// Exercicio - 3
+let removeLeftSide = document.getElementsByClassName('left-content')[0];
+mainDiv.removeChild(removeLeftSide);
+
+// Exercicio - 4
+let alignRight = document.getElementsByClassName('right-content')[0];
+alignRight.style.marginRight='auto';
+
+// exercicio - 5
+let backgroundCenter = document.getElementsByClassName('center-content')[0];
+backgroundCenter.parentNode.style.backgroundColor = 'green';
+
+// exercicio - 6
+unordList.lastChild.remove();
+unordList.lastChild.remove();
