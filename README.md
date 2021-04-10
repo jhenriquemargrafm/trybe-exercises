@@ -1,5 +1,4 @@
-Repositório para organização dos exercícios realizados durante o curso. Atualizado 29/03/21
-<br>
+Repositório para organização dos exercícios realizados durante o curso. Atualizado 10/04/21<br>
 Bloco 1 - Unix, Bash e Shell Script<br>
 Bloco 2 - Git, GitHub e Internet<br>
 Bloco 3 - Introdução a HTML e CSS<br>
