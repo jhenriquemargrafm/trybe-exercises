@@ -1,0 +1,57 @@
+PARTE 1
+
+sudo apt-get install git-all
+
+git config --global user.name "Seu nome"
+
+git config --global user.email seuemail@exemplo.br
+
+git config --global core.editor "code --wait" (define o VS Code como editor)
+
+code .gitconfig
+
+git --version
+
+git config --list
+
+
+PARTE 2
+
+Criação de conta no GitHub
+
+
+PARTE 3
+
+ssh-keygen -t rsa -b 4096 -C "seuemail@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+sudo apt-get install xclip
+
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
+
+No GitHub...
+
+Settings - New SSH key - Add SSH key
+
+PARTE 4
+
+git init
+
+git add . OU git add meu_arquivo.js
+
+git commit -m "Mensagem sobre a alteração feita"
+
+
+CONEXÃO REPOSITÓRIO LOCAL COM O REMOTO
+
+git remote add origin git@github.com:user-github/repo-name.git
+
+git remote -v
+
+git push origin master
+
+

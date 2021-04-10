@@ -1,0 +1,48 @@
+Linha de Comando - simples, estável, rápida, eficiente e exige baixíssimo poder de Hardware.
+
+UNIX, KERNEL & SHELL
+
+UNIX - Kernel - responsável pela interação entre o Hardware e o Software
+
+Shell - Ler a linha de comando e devolver o resultado
+
+Aplicativos
+
+Processos X Arquivos 
+
+ctrl + alt + t = abrir o terminal
+
+COMANDOS UNIX
+
+
+	COMANDOS 1
+
+ls - lista todos os arquivos e diretórios
+ls -a -mostra também os arquivos ocultos
+
+cd nome_diretório - change diretory
+
+clear - limpa a tela (joga para cima)
+
+mkdir novapasta - make directory
+
+cd . - própria pasta
+cd .. - volta para a pasta pai
+pwd - mostra o diretório completo
+
+
+	COMANDOS 2
+
+cp arquivo1.txt arquivocópia.txt - faz uma cópia do arquivo
+
+cat arquivo1.txt - mostra o conteúdo do arquivo
+
+mv arquivo1.txt /diretório
+
+rm arquivo2.txt - remove o arquivo
+rmdir pasta - apagar diretório (diretório tem que estar vazio)
+rmdir -rf pasta - apaga diretório com arquivos dentro.
+
+
+
+
