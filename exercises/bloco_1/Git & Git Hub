@@ -1,0 +1,24 @@
+Git - sistema de controle de versão amplamente utilizado no mundo de desenvolvimento.
+
+GitHub - excelente ferramenta para gestão do código.
+
+Commit - histórico de alterações
+
+Git - mecanismo de controle de versão
+GitHub - plataforma que hospeda repositórios
+
+Ramificação - Branching
+Mesclagem - Merge
+Resolução de Conflitos
+
+Branch - é uma versão independente e editável que se cria do código.
+Branch Master - versão principal
+
+Commits são agregados às branches
+Merge é quando mesclamos uma branch com outra branch
+
+Conexão entre Git (local) e GitHub (remoto)
+
+SSH - protocolo de criptografia de rede
+HTTPS - extensão do protocolo de internet HTTP
+
