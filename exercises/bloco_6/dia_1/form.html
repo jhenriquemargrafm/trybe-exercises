@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Header da página-->
+  <header class="cabeçalho">
+    <h1>Formulário para cadastro de currículo</h1>
+    <p>Preencha os campos abaixo.</p>
+  </header>
+  <!--Corpo do form-->
+  <form id="curriculo">
+    <div class="form-row">
+      <fieldset>
+          <div class="line-content">
+            <label for="name">Nome: </label>
+            <input type="text" name="name" id="name" maxlength="40" required>
+          </div>
+          <div class="line-content">
+            <label for="email">Endereço de e-mail: </label>
+            <input class="email" type="email" name="email" id="email" maxlength="50" required>
+          </div>
+          <div class="line-content">
+            <label for="cpf">CPF: </label>
+            <input type="text" name="cpf" id="cpf-number" maxlength="11" required>
+          </div>
+          <div class="line-content">
+            <label for="address">Endereço: </label>
+            <input type="text" name="address" id="address" maxlength="200" required>
+          </div>
+          <div class="line-content">
+            <label for="city">Cidade: </label>
+            <input type="text" name="city" id="city" maxlength="200" required>
+          </div>
+          <div class="line-content">
+            <!--Select é usado para comboBox--> 
+            <label for="state">Estado: </label>
+            <select name="state" id="state" value = "" required>
+            </select>
+          </div>
+          <div class="line-content">
+            <label for="house-apartment">Tipo de imóvel: </label>
+            <input type="radio" name="house-apartment" id="house" value="house" required> <span>Casa</span>
+            <input type="radio" name="house-apartment" id="apartment" value="apartment" required > <span>Apartamento</span>
+          </div>
+      </fieldset>
+      
+      <fieldset>
+          <div class="line-content">
+            <label for="resumo_cv">Resumo do currículo: </label>
+            <textarea id="resumo_cv" name="resumo_cv" maxlength="1000" cols="100" rows="20" required></textarea>
+          </div>
+          <div class="line-content">
+            <label for="position">Cargo: </label>
+            <input type="text" name="position" id="position" maxlength="40" required >
+          </div>
+          <div class="line-content">
+            <label for="description">Descrição do cargo: </label>
+            <input type="text" id="description" name="description" required>
+          </div>
+          <div class="line-content">
+            <!--Formato para colocar data-->
+            <label for="start-date">Data de início: </label>
+            <input type="text" class="input-data" name="start-date" value="" required>
+          </div>
+      </fieldset>
+    </div>
+  </form>
+  <button class="submit-button">Enviar</button>
+  <button class="clear-button">Limpar</button> 
+  <script src="script.js"></script>
+</body>
+</html>
