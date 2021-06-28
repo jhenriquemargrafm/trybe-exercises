@@ -16,6 +16,10 @@ Bloco 10 - Testes automatizados com Jest<br>
 Desenvolvimento Front-End<br>
 
 Bloco 11 - Introdução à React<br>
-Teste Windows
+Bloco 12 - Componentes com Estado, Eventos e Formulários com React<br>
+Bloco 13 - Ciclo de Vida de Componentes e React Router<br>
+Bloco 14 - Metodologias Ágeis<br>
+Bloco 15 - Testes automatizados com React Testing Library<br>
+Bloco 16 - Gerenciamento de estado com Redux<br>
 
 
